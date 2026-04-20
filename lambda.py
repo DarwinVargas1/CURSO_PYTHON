@@ -11,8 +11,11 @@ def mifuncion(n):
 
 duplicador=mifuncion(2)
 triplicador=mifuncion(3)
+quintuplicador=mifuncion(5)
 
 
 print(duplicador(5)) #1
 
 print(triplicador(5)) #15
+
+print(quintuplicador(5)) #25
