@@ -14,6 +14,10 @@ class modeloIA:
                 algoritmo: {self.algoritmo}\n
                 precision: {self.precision}\n
               """)
+    
+    def actualizar_precision(self, nueva_precision):
+        self.precision= nueva_precision
+        print(f"la nueva precision del modelo {self.nombre} es {self.precision}")
         
 nombre_modelo=input("Ingrese el nombre del modelo:")
 algoritmo=input("ingrese el algoritmo a usar:")
@@ -21,3 +25,6 @@ precision=input("ingrese la precision del modelo:")
 modelo1=modeloIA(nombre_modelo,algoritmo, precision)
 modelo1.predecir()
 modelo1.mostrar_info()
+nueva=input("Ingrese la nueva precision tras el entrenamiento")
+
+modelo1.actualizar_precision(nueva)
