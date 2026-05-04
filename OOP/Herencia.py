@@ -8,7 +8,7 @@ class persona:
         print("hola estoy hablando")
 class estudiante(persona):
     def __init__(self, nombre, edad, nacionalidad, carrera):
-        __init__(nombre, edad, nacionalidad)
+        super().__init__(nombre, edad, nacionalidad)
         self.carrera=carrera
 
 class empleado(persona):
