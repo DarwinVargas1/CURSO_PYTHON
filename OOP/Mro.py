@@ -22,4 +22,3 @@ d.hablar()      # bound method   → Python busca 'hablar' en el MRO de D
 
 f.hablar(d)     # unbound call   → vas directo a f.hablar
                 #                  pasas d como self tú mismo, saltando el MRO
-print(d)
