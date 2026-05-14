@@ -28,7 +28,7 @@ print(resultado)
 
 """darwin=Persona("pedro",19)
 repre= repr(darwin)#obtengo la representación del objeto
-resultado=eval(repre)#ya es el objeto
+resultado=eval(repre)#ya es e l objeto
 print(resultado.edad)"""
 
 

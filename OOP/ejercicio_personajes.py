@@ -6,7 +6,7 @@ class Personaje:
         
     
 
-    def __repr__(self):#devuelve una cadena de texto que sea una representacion oficial e inequivoca del objeto
+    def __repr__(self):#devuelve una cadena de texto que sea una representacion oficial e inequivoca del objeto, describe el objeto
         return f"{self.nombre} (fuerza:{self.fuerza}, velocidad {self.velocidad})"
 
 
