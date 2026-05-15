@@ -16,4 +16,4 @@ class NotificadorSMS(notificador):
         print(f"enviando mensaje SMS al {self.usuario.sms}")
 
 
-#como podemos ver podemos crear muchos metodos mas si queremos notificar por diferentes medios whatsapp, email, sms, ig, etc. Lo importante es que es posible crear otras clases que son capaces de solucionar esto y no modifiquen el codigo fuente o principal. 
+#como podemos ver podemos crear muchos metodos mas si queremos notificar por diferentes medios whatsapp, email, sms, ig, etc. Lo importante es que es posible crear otras clases que son capaces de solucionar esto y no modifiquen el codigo fuente o principal.  

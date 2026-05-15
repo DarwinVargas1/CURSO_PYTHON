@@ -38,14 +38,6 @@ from abc import ABC, abstractmethod
     #La forma de arriba no es la correcta ya que implementamos metodos innecesarios por ejemplo en la clase robot, lo mejor es tener muchas interfaces especificas pero que no tenga metodos innecesarios
 
 
-
-
-
-
-
-
-
-
 """esta es la manera correcta estamos creando interfaces especificas que nos evitan usar metodos innecesarios, podemos tener un robot que no necesite comer y dormir por lo cual creamos una interfaz aparte que sea solo de trabajar y que la clase robot herede de ella, evitando tener los metodos dormir y comer sin hacer nada"""
 class Trabajador(ABC):
     @abstractmethod
