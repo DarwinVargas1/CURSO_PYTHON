@@ -1,0 +1,1 @@
+##chatbot donde tenga un mensaje de entrada y de eso mensaje de uno de sali diciendo cual es el sentimiento, se usa varios temas aparte de POO, modulos, api, analisis de datos, etc.
